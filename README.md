@@ -1,4 +1,4 @@
-# Cho Jeongyun Final Integrated Project
+# Lee Changseok Integrated Project
 
 The basis of this assignment is to show portfolio pieces on a live website.
 
