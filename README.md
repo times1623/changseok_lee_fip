@@ -35,7 +35,7 @@ I use [Github](http://github.com) for versioning.
 
 This project is entirely built by myself.
 
-* **JeongYun Cho (Sam)** - *Developer,Designer*
+* **Changseok Lee(Lee)** - *Developer,Designer*
 
 
 
