@@ -1,0 +1,214 @@
+.titleText {
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+#aboutMe {
+    min-height: 100vh;
+}
+
+#introduction h2 {
+    font-family: "Chakra Petch";
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#introduction span {
+    font-size: 2.5rem;
+}
+
+#introduction p {
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Chakra Petch";
+}
+
+
+
+#skills {
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 100vh;
+}
+
+#abtTitle  {
+    font-weight: light;
+    color: white;
+}
+
+
+#skillSec object {
+    width: 50%;
+    margin-left: 6rem;
+}
+
+#skillSec #webDev {
+    height: 53%;
+}
+
+#skillSec h2 {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Chakra Petch';
+    text-align: center;
+}
+
+#skillSec p {
+    margin-top: 3rem;
+    color: darkgrey;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#contactInfo h3 {
+    color: #e49940;
+    font-size: 4rem;
+    font-family: "Chakra Petch"
+
+}
+
+#contactInfo #p1{
+    color: black;
+    font-family: "Chakra Petch";
+    font-size: 1.5rem;
+}
+
+#contactInfo #p2{
+    color: black;
+    font-family: "Chakra Petch";
+    font-size: 1.5rem;
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .mainContent section {
+        padding-top: 3rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #aboutMe .titleText {
+        font-size: 2.5rem;
+    }
+    
+    #skills {
+        background-color: black;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        min-height: 100vh;
+    }
+    
+    
+    #skillSec object {
+        width: 40%;
+        margin-left: 13.5rem;
+    }
+    
+    #skillSec #webDev {
+        height: 53%;
+    }
+    
+    #skillSec h2 {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    #skillSec p {
+        margin-top: 3rem;
+        color: darkgrey;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #schoolWork {
+        margin-top: 1rem;
+    }
+    
+  
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .mainContent section {
+        padding-top: 8rem;
+    }
+
+    .titleText {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    #introduction h2 {
+        font-family: "Chakra Petch";
+        font-size: 3rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    
+    #introduction span {
+        color: skyblue;
+        font-size: 3.5rem;
+    }
+    
+    #introduction p {
+        color: black;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: "Chakra Petch";
+    }
+
+    #abtTitle {
+        font-weight: light;
+    }
+
+    #myWork {
+        color: black;
+    
+    }
+
+    #workLineT {
+        margin-top: 2rem;
+    }
+
+    #skills {
+        padding-bottom: none;
+    }
+
+    #skillSec object {
+        margin-left: 7rem;
+    }
+
+    #web {
+        margin-top: 1.75rem;
+    }
+
+    #contactInfo h3 {
+        font-size: 3.5em;
+    
+    }
+
+    #contactInfo #p1{
+        font-size: 1.5em;
+    }
+
+    #contactInfo #p2{
+        font-size: 1.75em;
+    }
+
+    #schoolWork {
+        margin-top: 2rem;
+    }
+    
+
+
+}
+
