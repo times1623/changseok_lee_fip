@@ -1,17 +1,20 @@
 <?php 
+
+//! Use Associative Array, for connection details.
 $dbn_dsn = array(
   'host' => 'localhost',
-  'dbname' => 'db_autoapp',
+  'dbname' => 'db_portfolio',
   'charset' => 'utf8',
 );
 
+// set the divider inside the associative array
 $dsn = 'mysql: ' . http_build_query($dbn_dsn, '', ';');
 
-//DB Credentials
+// This is the DB Credentials
 $db_user = 'root';
-$db_pass = '';  //root on Mac
+$db_pass = 'root';
 
-//PDO = Php Data Object
+//PDO is a Php Data Object
 try {
   $conn = new PDO($dsn, $db_user, $db_pass);
   // var_dump($pdo);
