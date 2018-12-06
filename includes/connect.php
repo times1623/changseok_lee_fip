@@ -3,7 +3,7 @@
 //! Use Associative Array, for connection details.
 $dbn_dsn = array(
   'host' => 'localhost',
-  'dbname' => 'db_portfolio',
+  'dbname' => 'chang634_portfolio',
   'charset' => 'utf8',
 );
 
@@ -11,8 +11,8 @@ $dbn_dsn = array(
 $dsn = 'mysql: ' . http_build_query($dbn_dsn, '', ';');
 
 // This is the DB Credentials
-$db_user = 'root';
-$db_pass = 'root';
+$db_user = 'chang634_lee';
+$db_pass = '66720797Cs@';
 
 //PDO is a Php Data Object
 try {
