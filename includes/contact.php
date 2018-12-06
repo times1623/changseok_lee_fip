@@ -1,22 +1,32 @@
 <?php
 
-if(isset($_POST['submit'])){
-    $name = $_POST['name'];
-    $subject = $_POST['subject'];
-    $mailFrom = $_POST['mail'];
-    $message = $_POST['message'];
+	function send_email(){
+		//Email validation:checking reuqiresd fields
 
-    $mailTo = "leecs@changseoklee.ca";
-    $headers = "From: ".$mailFrom;
-    $txt = "You have received an email from".$name.".\n\n".$message;
+		if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['message'])){
+			
+			echo 'You missing some required fields';
+			exit;
 
 
+		}
 
+		if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
+				echo 'Your Email is not valid';
+				exit;
+		}
 
+		$to = 'c_lee23@fanshaweonline.ca';
+		$subject = 'This is a email from '.$_POST['name'];
+		$message =  $_POST['message'];
+		$headers = 'From:'.$_POST['email'];
+        
+        mail($to, $subject, $message, $headers);
+        header("Location: ../index.html?mailsend");
 
-    mail($mailTo, $subject, $txt, $headers);
-    header("Location: index.html?mailsend");
+	}
 
-}
+	send_email();
+
 
 ?>
