@@ -29,7 +29,7 @@ let galImg = document.querySelectorAll('.gal');
             })
             
             galImg.forEach((pic,i) => {
-                pic.src= "images/"+ data[i].gallery_web_image;
+                pic.src += data[i].gallery_web_image;
             })
           })
           .catch(function (error) {
