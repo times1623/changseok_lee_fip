@@ -5,53 +5,34 @@
 The concept idea was to create and to show an iconic graphic that captures the essence of my achievements.
 Where I am standing now, and where I will be in the future.
 
-### HERO. section
-![image](images/readme_img/home.png)
+### About section
+![image](images/aboutsec.png)
 
-Initial animation was created in Adobe Illustrator, moved to Adobe After Effects to apply animations, and finally exported to a data.json using Lottie AirBnb Bodymovin extension.
-
-![](images/readme_img/lottie.gif)
-
-The design orientation was to be minimalistic, direct and clear, highlighting the Developer and Design sides.  All the communication is oriented on the double elements of creativity and technology.
+The Concept of this page is just showing what kinds of skills I have with some logo animations.
 
 ### SKILLS. section
-![image](images/readme_img/skills.png)
+![image](images/skillsec.png)
 
-The Skills section is a breief summary of my areas of interest and experience.  
+The Skills section briefly surmmarized about me like how many years I learned those skills and which part I can handle.
 
-### WORKS. + EXPLORATIONS. sections
-![image](images/readme_img/works.png)
 
-The Works and Explorations sections are showing my primary and secondary projects.  The first are elements included in my main area of interest; the second are projects that extends my main area.  
+### Work. section
+![image](images/portsec.png)
 
-### ABOUT. section
-![image](images/readme_img/about.png)
-
-To show further information about myself, an About section based on infographic has been created, the goal was to highlight personal aspects outside my professional areas, and also elements that drive my enthusiasm.
+This Section shows about my graphic design works and some of my school project works.
 
 ### CONTACT. section
-![image](images/readme_img/contact.png)
+![image](images/contactsec.png)
 
 The contact section offers different way to communicate or connect with me.
 
 ## Tools used during development phase:
-- Adobe Illustrator, Photoshop, After Effects
+- Adobe Illustrator, Photoshop, XD
 - PHP/MySQL
 - Gulp.js
 - SASS
 - Javascript Fetch API, to get data from backend database
-- Fonts: Product Sans and Inconsolata
-- https://airbnb.design/lottie/ for animation created in Adobe After Effects
-- https://github.com/davidkpiano/flipping to animate thumbnails images on click
-- https://mciastek.github.io/sal/ to animate elements on scroll
-
-
-### Giving credits for places that helped to do this project
-
-- https://stackoverflow.com/
-- https://airbnb.io/lottie/web/web.html
-- https://sass-lang.com/
-- https://css-tricks.com/animating-layouts-with-the-flip-technique/
+- Fonts: Charkra Petch and Chamonman
 
 
 ### Future Improvements
