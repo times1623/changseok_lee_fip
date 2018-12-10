@@ -26,6 +26,10 @@ This Section shows about my graphic design works and some of my school project w
 
 The contact section offers different way to communicate or connect with me.
 
+### Author
+Changseok Lee(Developer, Designer)
+
+
 ## Tools used during development phase:
 - Adobe Illustrator, Photoshop, XD
 - PHP/MySQL
