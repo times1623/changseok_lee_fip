@@ -7,12 +7,13 @@ Where I am standing now, and where I will be in the future.
 
 ### About section
 ![image](images/aboutsec.png)
+The Concept of this section is just showing some breif description about me like what was my previous job in Korea, why I chose to decided to study Interactive media design In CANADA.
 
-The Concept of this page is just showing what kinds of skills I have with some logo animations.
 
 ### SKILLS. section
 ![image](images/skillsec.png)
 
+The Concept of this page is just showing what kinds of skills I have with some logo animations. And
 The Skills section briefly surmmarized about me like how many years I learned those skills and which part I can handle.
 
 
